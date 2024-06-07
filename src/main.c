@@ -12,4 +12,9 @@ void main() {
     // call_alert();
 
     DEBUG("test");
+
+    EM_ASM({
+        document.alarm("test");
+        document.render("<span>something awsome</span>")
+    });
 }

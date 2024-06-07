@@ -1,6 +1,7 @@
 {
     "files.associations": {
-        "emscripten.h": "c"
+        "emscripten.h": "c",
+        "string_view": "c"
     },
     "C_Cpp.default.compilerPath": " ../emsdk/upstream/emscripten/system/include/**"
 }
