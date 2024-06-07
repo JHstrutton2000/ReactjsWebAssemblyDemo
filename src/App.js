@@ -1,25 +1,19 @@
 import React, { useState, useEffect } from "react";
 import createModule from "./main.mjs";
+import { makeAlert } from "./Library.js"
 
 function App() {
-  const [value, setValue] = useState("blank");
-  useEffect(
-    () => {
-      createModule().then((Module) => {
 
-        Module.cwrap('main', 'number', ['number'])
-
-        setValue(Module.ccall('main', 'string', null, null));
-
-      });
-    },
-    []
-  );
+  createModule().then((Module) => {
+        
+    Module.cwrap('main')
+    Module.ccall('main');
+  });
 
   return (
     <div className="App">
       <p>Pls work</p>
-      {value}
+      {/* {value} */}
     </div>
   );
 }

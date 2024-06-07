@@ -1,0 +1,49 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "../emsdk/upstream/emscripten/system/include/**"
+            ],
+            "forcedInclude": [
+                "../emsdk/upstream/emscripten/system/include/emscripten/wire.h",
+                "../emsdk/upstream/emscripten/system/include/emscripten/proxying.h",
+                "../emsdk/upstream/emscripten/system/include/emscripten/em_types.h",
+                "../emsdk/upstream/emscripten/system/include/emscripten/promise.h",
+                "../emsdk/upstream/emscripten/system/include/emscripten/emscripten.h",
+                "../emsdk/upstream/emscripten/system/include/emscripten/eventloop.h",
+                "../emsdk/upstream/emscripten/system/include/emscripten/html5_webgpu.h",
+                "../emsdk/upstream/emscripten/system/include/emscripten/em_math.h",
+                "../emsdk/upstream/emscripten/system/include/emscripten/dom_pk_codes.h",
+                "../emsdk/upstream/emscripten/system/include/emscripten/bind.h",
+                "../emsdk/upstream/emscripten/system/include/emscripten/threading.h",
+                "../emsdk/upstream/emscripten/system/include/emscripten/console.h",
+                "../emsdk/upstream/emscripten/system/include/emscripten/wget.h",
+                "../emsdk/upstream/emscripten/system/include/emscripten/wasm_worker.h",
+                "../emsdk/upstream/emscripten/system/include/emscripten/exports.h",
+                "../emsdk/upstream/emscripten/system/include/emscripten/val.h",
+                "../emsdk/upstream/emscripten/system/include/emscripten/wasmfs.h",
+                "../emsdk/upstream/emscripten/system/include/emscripten/heap.h",
+                "../emsdk/upstream/emscripten/system/include/emscripten/html5.h",
+                "../emsdk/upstream/emscripten/system/include/emscripten/websocket.h",
+                "../emsdk/upstream/emscripten/system/include/emscripten/webaudio.h",
+                "../emsdk/upstream/emscripten/system/include/emscripten/fetch.h",
+                "../emsdk/upstream/emscripten/system/include/emscripten/posix_socket.h",
+                "../emsdk/upstream/emscripten/system/include/emscripten/atomic.h",
+                "../emsdk/upstream/emscripten/system/include/emscripten/fiber.h",
+                "../emsdk/upstream/emscripten/system/include/emscripten/version.h",
+                "../emsdk/upstream/emscripten/system/include/emscripten/key_codes.h",
+                "../emsdk/upstream/emscripten/system/include/emscripten/em_js.h",
+                "../emsdk/upstream/emscripten/system/include/emscripten/threading_legacy.h",
+                "../emsdk/upstream/emscripten/system/include/emscripten/em_macros.h",
+                "../emsdk/upstream/emscripten/system/include/emscripten/trace.h",
+                "../emsdk/upstream/emscripten/system/include/emscripten/stack.h",
+                "../emsdk/upstream/emscripten/system/include/emscripten/em_asm.h",
+                "../emsdk/upstream/emscripten/system/include/emscripten/html5_webgl.h",
+                "../emsdk/upstream/emscripten/system/include/emscripten/emmalloc.h"
+            ]
+        }
+    ],
+    "version": 4
+}

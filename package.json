@@ -8,7 +8,7 @@
     "@testing-library/user-event": "^12.8.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
+    "react-scripts": "^5.0.1",
     "web-vitals": "^1.1.1"
   },
   "scripts": {
@@ -22,7 +22,9 @@
       "react-app",
       "react-app/jest"
     ],
-    "ignorePatterns": ["src/matrixMultiply.mjs"]
+    "ignorePatterns": [
+      "src/matrixMultiply.mjs"
+    ]
   },
   "browserslist": {
     "production": [
